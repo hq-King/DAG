@@ -1,4 +1,4 @@
-# DAG：从零环境构建、模型下载与训练
+# ECCV 2026 DAG：从零环境构建、模型下载与训练
 
 [English](./README.md) | [中文](./README.zh-CN.md)
 
