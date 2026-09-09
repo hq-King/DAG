@@ -1,4 +1,4 @@
-# DAG: Environment Setup, Model Download and Training
+# ECCV2026 DAG: Environment Setup, Model Download and Training
 
 [English](./README.md) | [中文](./README.zh-CN.md)
 
