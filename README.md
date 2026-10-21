@@ -98,14 +98,6 @@ python -m pip install \
   open-clip-torch==2.24.0
 ```
 
-Install the in-project CLIP:
-
-```bash
-cd CLIP1
-python -m pip install -e .
-cd ..
-```
-
 ## 5. Install ODISE, LDM and Detectron2 Dependencies
 
 The image branch of DAG uses ODISE/LDM and needs `ldm`, `omegaconf`, `fvcore`, `iopath` and Detectron2:
@@ -139,9 +131,8 @@ python -c "import torch; print(torch.__version__, torch.version.cuda)"
 ## 6. Install Point Cloud CUDA Extensions
 
 ```bash
-python -m pip install KNN-CUDA==0.2
-python -m pip install pointnet2-ops==3.0.0
-```
+pip install --upgrade https://github.com/unlimblue/KNN_CUDA/releases/download/0.2/KNN_CUDA-0.2-py3-none-any.whl
+pip install "git+https://github.com/erikwijmans/Pointnet2_PyTorch.git#egg=pointnet2_ops&subdirectory=pointnet2_ops_lib"```
 
 Check:
 
