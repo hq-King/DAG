@@ -1,6 +1,6 @@
 # ECCV2026 DAG: Environment Setup, Model Download and Training
 
-[English](./README.md) | [中文](./README.zh-CN.md)
+[English](./README.md)
 
 This document covers running the DAG model in `diffusion_affordance` from an empty Conda environment.
 
