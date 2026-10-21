@@ -443,8 +443,8 @@ cd ../diffusion_affordance
 
 ```text
 Python 3.9.19
-PyTorch 1.13.1+cu116
-torchvision 0.14.1+cu116
+PyTorch 1.13.1+cu117
+torchvision 0.14.1+cu117
 CUDA available: True
 ```
 
